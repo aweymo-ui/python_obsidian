@@ -10,7 +10,7 @@
 # SITE SETTINGS
 #
 # title appears in the header
-title: Distant Listening, Seven Minute Scholarship Presentation
+title: Using Python Tools and Obsidian to Connect and Visualize Research
 # title-icon appears in the header to give some pizazz (leave blank for none)
 # choose from Bootstrap Icons in _includes/bootstrap-icons
 # find names on https://icons.getbootstrap.com/
@@ -18,7 +18,7 @@ title: Distant Listening, Seven Minute Scholarship Presentation
 title-icon: 
 # description, keywords, and image for meta tags
 # these do not visibility appear on the pages, but used for SEO
-description: "Seven Minute Scholarship Presentation for Loyola Marymount University's Digital Commons"
+description: "Created for Alyssa Kreikemeier's HIST 320 course, Fall 2024."
 keywords: 
 # featured-image is added to metadata tags for social media sharing
 # use a relative path to image in this repository or full URL
@@ -33,7 +33,7 @@ github_username: aweymo
 # year or date published
 pub_year: 2024
 # location of code, the full url to your github repository
-source-code: https://github.com/aweymo-ui/distant_seven
+source-code: https://github.com/aweymo-ui/python_obsidian
 
 ##########
 # URL VARIABLES [optional!!]

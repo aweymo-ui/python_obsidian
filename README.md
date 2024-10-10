@@ -1,3 +1,3 @@
-# Distant Listening, Seven Minute Scholarship Presentation
+# Using Python Tools and Obsidian to Connect and Visualize Research
 
-Presentation on text mining oral history collections for the 2024 Loyola Marymount University's Digital Commons conference Seven Minute Scholarship Presentation segment. _Andrew Weymouth, Fall 2024_.
+Presentation on using Python tools and Obsidian tagging methods to contextualize and connect scholarly research. Created for Alyssa Kreikemeier's HIST 320 course, _Fall 2024_.
