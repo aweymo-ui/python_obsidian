@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Home | Using Python Tools and Obsidian to Connect and Visualize Research</title>
+<title>Visualization and Conclusion | Using Python Tools and Obsidian to Connect and Visualize Research</title>
 <meta name="description" content="Created for Alyssa Kreikemeier&#39;s HIST 320 course, Fall 2024.">
 <meta name="keywords" content="">
 <meta name="author" content="Andrew Weymouth">
@@ -21,15 +21,15 @@
 --> 
    
 <!-- Open Graph meta -->
-<meta property="og:title" content="Home | Using Python Tools and Obsidian to Connect and Visualize Research" />
+<meta property="og:title" content="Visualization and Conclusion | Using Python Tools and Obsidian to Connect and Visualize Research" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="Created for Alyssa Kreikemeier&#39;s HIST 320 course, Fall 2024." />
 <meta property="og:image" content="http://localhost:4000/images/banner.jpg" />
 <meta property="og:site_name" content="Using Python Tools and Obsidian to Connect and Visualize Research" />
-<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/content/7_vis.html" />
 <meta property="og:locale" content="en_US" />
 <!-- schema.org JSON-LD -->
-<script type="application/ld+json">{ "@context":"http://schema.org", "@type":"WebPage", "headline":"Home | Using Python Tools and Obsidian to Connect and Visualize Research", "author": { "@type":"Person", "name":"Andrew Weymouth"}, "description":"Created for Alyssa Kreikemeier&#39;s HIST 320 course, Fall 2024.", "image": "http://localhost:4000/images/banner.jpg", "url":"http://localhost:4000/" }</script>
+<script type="application/ld+json">{ "@context":"http://schema.org", "@type":"WebPage", "headline":"Visualization and Conclusion | Using Python Tools and Obsidian to Connect and Visualize Research", "author": { "@type":"Person", "name":"Andrew Weymouth"}, "description":"Created for Alyssa Kreikemeier&#39;s HIST 320 course, Fall 2024.", "image": "http://localhost:4000/images/banner.jpg", "url":"http://localhost:4000/content/7_vis.html" }</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -116,7 +116,7 @@
                 </li>
             
                 <li class="nav-item">
-                    <a class="nav-link p-3 h-100" href="/content/7_vis.html">
+                    <a class="nav-link active p-3 h-100" href="/content/7_vis.html">
                         
                             Visualization
                         
@@ -141,61 +141,50 @@
     <main id="maincontent" role="main" aria-label="Content" class="flex-shrink-0">
       
       <div class="container my-4">
+<h1>Visualization and Conclusion</h1>
+
+<div class="ms-5 mb-3 border-bottom">
+    </div>
+    
+<div class="my-4">
+
 <figure class="figure d-block text-center p-3">
-    <a class="spotlight" href="/images/dl_cover.gif"><img data-src="/images/dl_cover.gif" alt="Animated gif of the title of this paper with colored lines connecting reel to reel audio spools." style="width:100%;" class="figure-img img-fluid lazyload" /></a></figure>
+    <a class="spotlight" href="/images/py_ob_01.gif"><img data-src="/images/py_ob_01.gif" alt="Obsidian graph view click through, adding and removing various elements." style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Obsidian Graph View.</figcaption></figure>
 
-<p><a href="https://indd.adobe.com/view/eea371ad-3ab8-44f5-abab-bb642d331ee2" target="_blank" rel="noopener">Slides</a></p>
+<p><strong>Like many data visualizations</strong>, the graph view of Obsidian is simply made up of <em>nodes</em> and <em>edges</em>, or lines between nodes. In this example, the nodes in blue and fuschia are books and the green nodes around them represent tags.</p>
 
-<p><a href="https://github.com/Scholarly-Projects/transcript_mining_base" target="_blank" rel="noopener">Git Repository for Transcript Text Mining Tool</a></p>
+<p>Opening the graph settings and working from the top down:</p>
 
-<h2 id="overview">Overview</h2>
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/images/py_ob_21.jpeg"><img data-src="/images/py_ob_21.jpeg" alt="Obsidian graph view click through, adding and removing various elements." style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Obsidian Graph View.</figcaption></figure>
 
-<p>This presentation will provide a walkthrough of new processes for creating subject tags across complete oral history collections developed at the U of I Center for Digital Inquiry and Learning over the summer of 2024. It details a workflow enabling student workers to run, modify, and expand tags during copyediting, aiming to enhance accuracy and ultimately help researchers identify connections between recordings. We’ll cover the workflow, challenges it addresses and the limitations of data-driven, human-edited tagging.</p>
+<ul>
+  <li>I’ve toggled off viewing the attachments, existing files and <em>orphans</em>, i.e. notes that are not linked to anything else in the vault. This will leave us just with our primary notes document any other meeting notes that we have added tags to</li>
+  <li>In <strong>Groups</strong>, I have added “path: “HIST 502” to differentiate the books between the two courses</li>
+  <li>In <strong>Display</strong>, I’ve lowered the edge thickness and turned off the arrows. This is intended for researchers who are implementing linking in their documents, which we aren’t engaging in with this method</li>
+  <li>Finally, in <strong>Forces</strong>, the default will display your nodes in a nice, neat little sphere, but it doesn’t tell you very much. However, I’ve found this setting:</li>
+</ul>
 
-<div class="row justify-content-center">
-    <div class="m-3 col-md-8">
-        <div class="card">
-            <div class="card-body">
-                <h2 class="h4 card-title">Contents:</h2>
-                <ul>
-                    
-                    <li><a href="/content/1_intro.html">Introduction</a> </li>
-                    
-                    <li><a href="/content/2_accounts.html">Accounts</a> </li>
-                    
-                    <li><a href="/content/3_prep.html">Preparation</a> </li>
-                    
-                    <li><a href="/content/4_annotation.html">Annotation Extraction Tool</a> </li>
-                    
-                    <li><a href="/content/5_setup.html">Set-up</a> </li>
-                    
-                    <li><a href="/content/6_obsidian.html">Obsidian</a> </li>
-                    
-                    <li><a href="/content/7_vis.html">Visualization</a> </li>
-                    
-                    <li><a href="/content/8_appendix.html">Notes and Appendix</a> </li>
-                    </ul>
-            </div>
-        </div>
-    </div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(left=0%, 
+right=100%):
+Center Force: 25%
+Repel Force: 85%
+Link Force: 75%
+Link Distance: 100%
+</code></pre></div></div>
+
+<p>provides some interesting insights.Tags nodes in the center are used the most throughout all texts. As these tag nodes move outward they are in proximity to the texts they are associated with. Tag nodes on the outside of the cluster are only associated with one text node. Additionally, the size of both text and tag nodes denote the number of texts or tags they are associated with.</p>
+
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
 </div>
+<p><br /></p>
 
-<hr />
+<h2 id="conclusion">Conclusion</h2>
 
-<p><strong>Content:</strong> CC BY-NC-ND 4.0 <a href="https://github.com/aweymo">Andrew Weymouth</a> 2024 (get <a href="https://github.com/aweymo-ui/python_obsidian" target="_blank" rel="noopener">source code</a>). <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license"></a></p>
-<p><strong>Theme:</strong> Variation on <a href="https://github.com/evanwill/workshop-template-b" target="_blank" rel="noopener">workshop-template-b</a> by <a href="https://github.com/evanwill/" target="_blank" rel="noopener">evanwill</a></p>
+<p><strong>Through this method</strong>, we can see at a glance the contextual similarities between a collection of books and across courses. I hope these tools and methods can help connect and contextualize your research in and across academic disciplines.</p>
 
-<div class="row">
-    
-    
-    <div class="col-md text-center">
-        <figure class="figure mx-3">
-            <a href="/items/.html">
-                <img class="figure-img img-fluid rounded lazyload" alt="" title="click to see item" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="" />
-            </a>
-            <figcaption class="figure-caption text-center"><a href="/items/.html"></a></figcaption>
-        </figure>
-    </div>
+
 </div>
 
 </div>
@@ -219,7 +208,7 @@
         
         <li class="nav-item"><a class="nav-link h3" href="/content/6_obsidian.html">Obsidian</a></li>
         
-        <li class="nav-item"><a class="nav-link h3" href="/content/7_vis.html">Visualization</a></li>
+        <li class="nav-item"><a class="nav-link h3 active" href="/content/7_vis.html">Visualization</a></li>
         
         <li class="nav-item"><a class="nav-link h3" href="/content/8_appendix.html">Notes and Appendix</a></li>
         

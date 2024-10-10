@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Findings and Conclusion | Using Python Tools and Obsidian to Connect and Visualize Research</title>
+<title>Annotation Extraction Tool | Using Python Tools and Obsidian to Connect and Visualize Research</title>
 <meta name="description" content="Created for Alyssa Kreikemeier&#39;s HIST 320 course, Fall 2024.">
 <meta name="keywords" content="">
 <meta name="author" content="Andrew Weymouth">
@@ -21,15 +21,15 @@
 --> 
    
 <!-- Open Graph meta -->
-<meta property="og:title" content="Findings and Conclusion | Using Python Tools and Obsidian to Connect and Visualize Research" />
+<meta property="og:title" content="Annotation Extraction Tool | Using Python Tools and Obsidian to Connect and Visualize Research" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="Created for Alyssa Kreikemeier&#39;s HIST 320 course, Fall 2024." />
 <meta property="og:image" content="http://localhost:4000/images/banner.jpg" />
 <meta property="og:site_name" content="Using Python Tools and Obsidian to Connect and Visualize Research" />
-<meta property="og:url" content="http://localhost:4000/content/4_findings.html" />
+<meta property="og:url" content="http://localhost:4000/content/4_annotation.html" />
 <meta property="og:locale" content="en_US" />
 <!-- schema.org JSON-LD -->
-<script type="application/ld+json">{ "@context":"http://schema.org", "@type":"WebPage", "headline":"Findings and Conclusion | Using Python Tools and Obsidian to Connect and Visualize Research", "author": { "@type":"Person", "name":"Andrew Weymouth"}, "description":"Created for Alyssa Kreikemeier&#39;s HIST 320 course, Fall 2024.", "image": "http://localhost:4000/images/banner.jpg", "url":"http://localhost:4000/content/4_findings.html" }</script>
+<script type="application/ld+json">{ "@context":"http://schema.org", "@type":"WebPage", "headline":"Annotation Extraction Tool | Using Python Tools and Obsidian to Connect and Visualize Research", "author": { "@type":"Person", "name":"Andrew Weymouth"}, "description":"Created for Alyssa Kreikemeier&#39;s HIST 320 course, Fall 2024.", "image": "http://localhost:4000/images/banner.jpg", "url":"http://localhost:4000/content/4_annotation.html" }</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,25 +84,49 @@
                 </li>
             
                 <li class="nav-item">
-                    <a class="nav-link p-3 h-100" href="/content/3_process.html">
+                    <a class="nav-link p-3 h-100" href="/content/3_prep.html">
                         
-                            Process
-                        
-                    </a>
-                </li>
-            
-                <li class="nav-item">
-                    <a class="nav-link active p-3 h-100" href="/content/4_findings.html">
-                        
-                            Findings
+                            Preparation
                         
                     </a>
                 </li>
             
                 <li class="nav-item">
-                    <a class="nav-link p-3 h-100" href="/content/5_references_apendices.html">
+                    <a class="nav-link active p-3 h-100" href="/content/4_annotation.html">
                         
-                            References and Appendices
+                            Annotation Extraction Tool
+                        
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link p-3 h-100" href="/content/5_setup.html">
+                        
+                            Set-up
+                        
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link p-3 h-100" href="/content/6_obsidian.html">
+                        
+                            Obsidian
+                        
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link p-3 h-100" href="/content/7_vis.html">
+                        
+                            Visualization
+                        
+                    </a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link p-3 h-100" href="/content/8_appendix.html">
+                        
+                            Notes and Appendix
                         
                     </a>
                 </li>
@@ -117,7 +141,7 @@
     <main id="maincontent" role="main" aria-label="Content" class="flex-shrink-0">
       
       <div class="container my-4">
-<h1>Findings and Conclusion</h1>
+<h1>Annotation Extraction Tool</h1>
 
 <div class="ms-5 mb-3 border-bottom">
     </div>
@@ -125,11 +149,47 @@
 <div class="my-4">
 
 <figure class="figure d-block text-center p-3">
-    <a class="spotlight" href="/images/dl_06.png"><img data-src="/images/dl_06.png" alt="Example of a pre and post process tagging visualization of a recording, with the post process being dramatically more dense" style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Pre and Post Process Tagging Visualization</figcaption></figure>
+    <a class="spotlight" href="/images/py_ob_15.jpeg"><img data-src="/images/py_ob_15.jpeg" alt="Visualization of two book pages with highlights being extracted and categorized" style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Identifying and Categorizing Highlighted Text</figcaption></figure>
 
-<p>Regarding the limitations of data-driven, human-edited tagging, program managers should clarify that automated tags are only a starting point and may be incorrectly applied, missing, or require broader application across transcripts. Also, the amount of detail this process accrues is drastic and one could argue that the density of the data now makes it difficult for the researcher to navigate, especially on mobile devices, which remains a topic for ongoing refinement.</p>
+<p><a href="https://github.com/Scholarly-Projects/annotation_extraction">This Python tool</a> seeks out a series of <strong>six highlight colors</strong> which all have designations and then extracting the text with those highlights into two different markdown files where these excerpts are displayed either categorically or chronologically, from the beginning to the end of the document you annotated. Here are the colors (in RGB) and their corresponding categories as they are currently set up in the tool:</p>
 
-<p>My hope is that utilizing machine learning, Python, and JavaScript approaches will make digitizing these resources more efficient and accessible, promoting their preservation and availability to the public.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   light_blue = (0.659, 0.929, 1.000)    
+    yellow = (1.0, 1.0, 0.039)            
+    orange = (0.992, 0.502, 0.031)        
+    red = (1.0, 0.255, 0.494)             
+    purple = (0.902, 0.522, 1.0)          
+    gray = (0.902, 0.902, 0.902)          
+
+color_map = {
+        "General Notes": light_blue,
+        "Definitions, Locations, People, Organizations": yellow,
+        "Author Thesis and Methodology": orange,
+        "Important": red,
+        "Stats": purple,
+        "Quotes": gray
+</code></pre></div></div>
+
+<p><strong>Both the colors and the designations can be customized to your research</strong> but note that the colors need to be distinct enough that the tool can differentiate between a light blue and a light green, for instance.</p>
+
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/images/py_ob_18.gif"><img data-src="/images/py_ob_18.gif" alt="Demo of Annotation Extraction Tool" style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Demo of Annotation Extraction Tool</figcaption></figure>
+
+<p>This tool works by importing the <code class="language-plaintext highlighter-rouge">fitz</code> module of PyMuPDF, a library used for working with PDF files, including extracting text and handling annotations. The header material also includes importing Python’s <code class="language-plaintext highlighter-rouge">os</code> module, which allows you to interact with the operating system and reading directories and file paths and the <code class="language-plaintext highlighter-rouge">re</code> module, which provides regular expression operations and searching and modifying the text we will be extracting.</p>
+
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+
+<p><strong>Functionally</strong>, the tool begins by:</p>
+
+<ul>
+  <li>Cleaning text</li>
+  <li>Removing hyphenated line breaks</li>
+  <li>Removing line breaks within text and replacing them with a space (with varying degrees of success… see the Future Refinement section)</li>
+  <li>Removing non-ASCII characters and extra whitespace as it occurs in the text</li>
+  <li>Extracting highlighted text, mapping colors to their respective categories, using a tolerance to determine if the detected color is close enough to the reference color - specified above to be classified</li>
+  <li>Exporting to markdown… surprisingly quickly!</li>
+</ul>
 
 
 
@@ -148,11 +208,17 @@
         
         <li class="nav-item"><a class="nav-link h3" href="/content/2_accounts.html">Accounts</a></li>
         
-        <li class="nav-item"><a class="nav-link h3" href="/content/3_process.html">Process</a></li>
+        <li class="nav-item"><a class="nav-link h3" href="/content/3_prep.html">Preparation</a></li>
         
-        <li class="nav-item"><a class="nav-link h3 active" href="/content/4_findings.html">Findings</a></li>
+        <li class="nav-item"><a class="nav-link h3 active" href="/content/4_annotation.html">Annotation Extraction Tool</a></li>
         
-        <li class="nav-item"><a class="nav-link h3" href="/content/5_references_apendices.html">References and Appendices</a></li>
+        <li class="nav-item"><a class="nav-link h3" href="/content/5_setup.html">Set-up</a></li>
+        
+        <li class="nav-item"><a class="nav-link h3" href="/content/6_obsidian.html">Obsidian</a></li>
+        
+        <li class="nav-item"><a class="nav-link h3" href="/content/7_vis.html">Visualization</a></li>
+        
+        <li class="nav-item"><a class="nav-link h3" href="/content/8_appendix.html">Notes and Appendix</a></li>
         
       </ul>
     </nav>

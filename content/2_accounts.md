@@ -3,10 +3,7 @@ title: Accounts
 nav: Accounts
 gallery: true
 ---
-
-{% include gallery-figure.html img="py_ob_01.gif" alt="Obsidian graph view click through, adding and removing various elements." caption="Obsidian Graph View." width="75%" %}
-
-**Obsidian was founded in 2020** as a markdown file based knowledge management tool that has a very active user base and regularly updates systems based on that feedback. Obsidian supports the use of multiple computer languages, including JavaScript, HTML and CSS but, as we will see later, you can do as much or as little of this kind of thing on the pages depending on your experience with / interest in these technical approaches. Most of the tagging we will be focusing on for this presentation involves memorizing two or three characters to use Obsidian’s most powerful tools, the visualization or “graph view”, which is a very helpful guide to understanding the similarities and differences across a diverse collection of reading material. 
+ 
 
 ## Obsidian
 
@@ -15,6 +12,7 @@ gallery: true
 <div class="symbol-container">
     <p class="symbol">&#10042;</p>
 </div>
+<br>
 
 **You can create a syncing vault simply by creating a folder in a cloud based storage** such as OneDrive or Google Drive, choosing Open Vault in the Obsidian file drop down and selecting that folder. Note that whichever cloud based storage you choose may dictate your accessibility on other devices. For example, because I chose my University of Idaho OneDrive for a vault I’ll be talking about today, I can access this vault on the Android app due to OIT privacy standards but I can access it on all of my various laptop and desktops, which works for the capacity that I usually need these notes.
 
@@ -29,6 +27,7 @@ Another thing to consider is the scope of your vault when you are creating it. W
 <div class="symbol-container">
     <p class="symbol">&#10042;</p>
 </div>
+<br>
 
 Although there are ways to collaborate on a vault using either a shared cloud space or a GitHub repository (both not without potential syncing issues) **Obsidian is really designed as a _personal_ knowledge management tool** and it works best when you are analyzing a somewhat limited pool of documents. This may be a single project, class or academic discipline that you want to compare and interconnect in different ways. 
 

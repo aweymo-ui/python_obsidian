@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Home | Using Python Tools and Obsidian to Connect and Visualize Research</title>
+<title>Obsidian | Using Python Tools and Obsidian to Connect and Visualize Research</title>
 <meta name="description" content="Created for Alyssa Kreikemeier&#39;s HIST 320 course, Fall 2024.">
 <meta name="keywords" content="">
 <meta name="author" content="Andrew Weymouth">
@@ -21,15 +21,15 @@
 --> 
    
 <!-- Open Graph meta -->
-<meta property="og:title" content="Home | Using Python Tools and Obsidian to Connect and Visualize Research" />
+<meta property="og:title" content="Obsidian | Using Python Tools and Obsidian to Connect and Visualize Research" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="Created for Alyssa Kreikemeier&#39;s HIST 320 course, Fall 2024." />
 <meta property="og:image" content="http://localhost:4000/images/banner.jpg" />
 <meta property="og:site_name" content="Using Python Tools and Obsidian to Connect and Visualize Research" />
-<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/content/6_obsidian.html" />
 <meta property="og:locale" content="en_US" />
 <!-- schema.org JSON-LD -->
-<script type="application/ld+json">{ "@context":"http://schema.org", "@type":"WebPage", "headline":"Home | Using Python Tools and Obsidian to Connect and Visualize Research", "author": { "@type":"Person", "name":"Andrew Weymouth"}, "description":"Created for Alyssa Kreikemeier&#39;s HIST 320 course, Fall 2024.", "image": "http://localhost:4000/images/banner.jpg", "url":"http://localhost:4000/" }</script>
+<script type="application/ld+json">{ "@context":"http://schema.org", "@type":"WebPage", "headline":"Obsidian | Using Python Tools and Obsidian to Connect and Visualize Research", "author": { "@type":"Person", "name":"Andrew Weymouth"}, "description":"Created for Alyssa Kreikemeier&#39;s HIST 320 course, Fall 2024.", "image": "http://localhost:4000/images/banner.jpg", "url":"http://localhost:4000/content/6_obsidian.html" }</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -108,7 +108,7 @@
                 </li>
             
                 <li class="nav-item">
-                    <a class="nav-link p-3 h-100" href="/content/6_obsidian.html">
+                    <a class="nav-link active p-3 h-100" href="/content/6_obsidian.html">
                         
                             Obsidian
                         
@@ -141,61 +141,51 @@
     <main id="maincontent" role="main" aria-label="Content" class="flex-shrink-0">
       
       <div class="container my-4">
-<figure class="figure d-block text-center p-3">
-    <a class="spotlight" href="/images/dl_cover.gif"><img data-src="/images/dl_cover.gif" alt="Animated gif of the title of this paper with colored lines connecting reel to reel audio spools." style="width:100%;" class="figure-img img-fluid lazyload" /></a></figure>
+<h1>Obsidian</h1>
 
-<p><a href="https://indd.adobe.com/view/eea371ad-3ab8-44f5-abab-bb642d331ee2" target="_blank" rel="noopener">Slides</a></p>
-
-<p><a href="https://github.com/Scholarly-Projects/transcript_mining_base" target="_blank" rel="noopener">Git Repository for Transcript Text Mining Tool</a></p>
-
-<h2 id="overview">Overview</h2>
-
-<p>This presentation will provide a walkthrough of new processes for creating subject tags across complete oral history collections developed at the U of I Center for Digital Inquiry and Learning over the summer of 2024. It details a workflow enabling student workers to run, modify, and expand tags during copyediting, aiming to enhance accuracy and ultimately help researchers identify connections between recordings. We’ll cover the workflow, challenges it addresses and the limitations of data-driven, human-edited tagging.</p>
-
-<div class="row justify-content-center">
-    <div class="m-3 col-md-8">
-        <div class="card">
-            <div class="card-body">
-                <h2 class="h4 card-title">Contents:</h2>
-                <ul>
-                    
-                    <li><a href="/content/1_intro.html">Introduction</a> </li>
-                    
-                    <li><a href="/content/2_accounts.html">Accounts</a> </li>
-                    
-                    <li><a href="/content/3_prep.html">Preparation</a> </li>
-                    
-                    <li><a href="/content/4_annotation.html">Annotation Extraction Tool</a> </li>
-                    
-                    <li><a href="/content/5_setup.html">Set-up</a> </li>
-                    
-                    <li><a href="/content/6_obsidian.html">Obsidian</a> </li>
-                    
-                    <li><a href="/content/7_vis.html">Visualization</a> </li>
-                    
-                    <li><a href="/content/8_appendix.html">Notes and Appendix</a> </li>
-                    </ul>
-            </div>
-        </div>
+<div class="ms-5 mb-3 border-bottom">
     </div>
+    
+<div class="my-4">
+
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/images/py_ob_18.gif"><img data-src="/images/py_ob_18.gif" alt="Demo of Annotation Extraction Tool" style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Demo of Annotation Extraction Tool, Showing Processed Markdown Files Dropped into Obsidian</figcaption></figure>
+
+<p><strong>Now that we have our two markdown files</strong>, open your Obsidian vault and create a folder for the book or document you just processed and drop these two inside.</p>
+
+<p>While there are more complicated ways to search for things in Obsidian, the only elements that we really need to use this method are searching a <code class="language-plaintext highlighter-rouge">path</code> and for <code class="language-plaintext highlighter-rouge">tags</code>. Paths are simply refining results by how you have organized your folders.</p>
+
+<p>For example, if you have arranged things like the image below:</p>
+
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/images/py_ob_19.jpeg"><img data-src="/images/py_ob_19.jpeg" alt="Snapshot of a basic file structure in Obsidian" style="width:50%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">basic file structure in Obsidian</figcaption></figure>
+
+<p>By entering “path:” into the search bar on the left side of the screen, you can choose to either see only HIST 502 or HIST 514 and all of their associated texts or individual texts in either the graph or document view. Additionally, if you type “tag:” you will now be able to see the six tags that we’ve generated from the highlighted text by having the python tool insert a hashtag in front of each of these categories, which is how these are denoted in Obsidian.</p>
+
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+<p><br /></p>
+
+<h3 id="review-and-detailed-tagging-process">Review and Detailed Tagging Process</h3>
+
+<p><strong>While you can do detailed tagging in either file</strong>, I’ve found that this process makes the most sense in the chronological export for me.Whichever one you choose to do detailed tagging on, think of this as your primary notes document moving forward.</p>
+
+<figure class="figure d-block text-center p-3">
+    <a class="spotlight" href="/images/py_ob_20.gif"><img data-src="/images/py_ob_20.gif" alt="Demo Detailed Tagging Process" style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Demo Detailed Tagging Process, Including Obsidian Dropdown View of Preexisting Tags</figcaption></figure>
+
+<p>At this point in your research, you’ve read this once and highlighted section based on category, while you are reviewing these notes again take a moment to reassess the initial tags (perhaps an #important passage is actually a #general note or the reverse) and also create new tags. Maybe an #important passage is also indicative of #class-anxieties or #shaping-narratives. Maybe a #quote is indicative of a larger theme around #labor-organization that runs throughout the book and you would like to see all of these excerpts together at a glance? Note that tags need to be connected by dashes or underscores if you want to use multiple words. You can also create sub-tags to create look at different elements under the same umbrella by putting a dash after the tag, such as #author/thesis and #author/methodology.</p>
+
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
 </div>
 
-<hr />
+<p><strong>Tagging is an iterative and subjective process</strong>. You may find that throughout the course of your research, the name of the tag may shift as you think about that subject differently. Four or five tags may merge into one as you begin to identify major themes that emerge across the collection. During this process, I find it helpful to expand the panel on the right side of the interface and quickly review tags before reviewing a new work to remind myself of an expanding list of tags and connect them to other work.</p>
 
-<p><strong>Content:</strong> CC BY-NC-ND 4.0 <a href="https://github.com/aweymo">Andrew Weymouth</a> 2024 (get <a href="https://github.com/aweymo-ui/python_obsidian" target="_blank" rel="noopener">source code</a>). <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license"></a></p>
-<p><strong>Theme:</strong> Variation on <a href="https://github.com/evanwill/workshop-template-b" target="_blank" rel="noopener">workshop-template-b</a> by <a href="https://github.com/evanwill/" target="_blank" rel="noopener">evanwill</a></p>
+<p>Through this review and detailed tagging exercise, I’ve found that it taps into an active and creative engagement in the learning process, adding a layer of comprehension and a bird’s eye view of a complex set of texts. This leads us to the visualization!</p>
 
-<div class="row">
-    
-    
-    <div class="col-md text-center">
-        <figure class="figure mx-3">
-            <a href="/items/.html">
-                <img class="figure-img img-fluid rounded lazyload" alt="" title="click to see item" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="" />
-            </a>
-            <figcaption class="figure-caption text-center"><a href="/items/.html"></a></figcaption>
-        </figure>
-    </div>
+
+
 </div>
 
 </div>
@@ -217,7 +207,7 @@
         
         <li class="nav-item"><a class="nav-link h3" href="/content/5_setup.html">Set-up</a></li>
         
-        <li class="nav-item"><a class="nav-link h3" href="/content/6_obsidian.html">Obsidian</a></li>
+        <li class="nav-item"><a class="nav-link h3 active" href="/content/6_obsidian.html">Obsidian</a></li>
         
         <li class="nav-item"><a class="nav-link h3" href="/content/7_vis.html">Visualization</a></li>
         
