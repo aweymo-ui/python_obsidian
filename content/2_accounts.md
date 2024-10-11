@@ -7,7 +7,7 @@ gallery: true
 
 ## Obsidian
 
-**To create an Obsidian account**, you will first need to [download the application](https://obsidian.md/download) which is supported in Windows, Mac, Linux, IOS and Android. Afterwards, you will create an account. Note that Obsidian does have a paid Sync and Publish features but you don’t need either for everything we will cover in this presentation. Each workspace you create in Obsidian is a folder that they call a vault. 
+**To create an Obsidian account**, you will first need to [download the application](https://obsidian.md/download){:target="_blank" rel="noopener"} which is supported in Windows, Mac, Linux, IOS and Android. Afterwards, you will create an account. Note that Obsidian does have a paid Sync and Publish features but you don’t need either for everything we will cover in this presentation. Each workspace you create in Obsidian is a folder that they call a vault. 
 
 <div class="symbol-container">
     <p class="symbol">&#10042;</p>
@@ -37,26 +37,26 @@ That said, since **a vault is essentially just a folder**, you can easily add or
 
 {% include gallery-figure.html img="py_ob_06.jpeg" alt="Screenshot of GitHub registration page" caption="GitHub Registration Page" width="75%" %}
 
-- Now that we have our Obsidian account and a vault structure, you will need to create an account with [GitHub](https://github.com/join) a cloud-based platform that allows developers to store, share and collaborate on code. 
+- Now that we have our Obsidian account and a vault structure, you will need to create an account with [GitHub](https://github.com/join){:target="_blank" rel="noopener"} a cloud-based platform that allows developers to store, share and collaborate on code. 
 
-- After you have an account, download [GitHub Desktop](https://desktop.github.com/download/) and, with your Git web browser open, sign through Preferences > Accounts, which will prompt your browser to verify. 
+- After you have an account, download [GitHub Desktop](https://desktop.github.com/download/){:target="_blank" rel="noopener"} and, with your Git web browser open, sign through Preferences > Accounts, which will prompt your browser to verify. 
 
 {% include gallery-figure.html img="py_ob_09.jpeg" alt="Connecting GitHub Desktop to Git through Preferences" caption="Connecting GitHub Desktop to Git through Preferences" width="75%" %}
 
-- Think of GitHub Desktop as a bridge between your GitHub's web browser and your local Visual Studio Code that is saving you a little coding that you would otherwise need to do from the [command line](https://en.wikipedia.org/wiki/Command-line_interface).
+- Think of GitHub Desktop as a bridge between your GitHub's web browser and your local Visual Studio Code that is saving you a little coding that you would otherwise need to do from the [command line](https://en.wikipedia.org/wiki/Command-line_interface){:target="_blank" rel="noopener"}.
 
 
 {% include gallery-figure.html img="py_ob_10.jpeg" alt="GitHub Desktop button that will prompt verification through the Web Browser" caption="GitHub Desktop button that will prompt verification through the Web Browser" width="75%" %}
 
 
-- Next download a text editor. A simple, no cost option that most of us use in the Center for Digital Inquiry and Learning is [Visual Studio Code](https://code.visualstudio.com/download). Signing in through the settings widget on the bottom left of the interface will prompt the same verification of your GitHub account through the web browser. 
+- Next download a text editor. A simple, no cost option that most of us use in the Center for Digital Inquiry and Learning is [Visual Studio Code](https://code.visualstudio.com/download){:target="_blank" rel="noopener"}. Signing in through the settings widget on the bottom left of the interface will prompt the same verification of your GitHub account through the web browser. 
 
 {% include gallery-figure.html img="py_ob_12.jpeg" alt="Visual Studio Code prompting verification through the GitHub Web Browser" caption="Visual Studio Code prompting verification through the GitHub Web Browser" width="75%" %}
 
-- Now that these elements are all connected, you should be able to clone either the [Annotation Extraction Tool](https://github.com/Scholarly-Projects/annotation_extraction) or the [book splitter](https://github.com/Scholarly-Projects/book_splitter) Python tools by pushing the green `Code` button and selecting `Open with GitHub Desktop`.
+- Now that these elements are all connected, you should be able to clone either the [Annotation Extraction Tool](https://github.com/Scholarly-Projects/annotation_extraction){:target="_blank" rel="noopener"} or the [book splitter](https://github.com/Scholarly-Projects/book_splitter){:target="_blank" rel="noopener"} Python tools by pushing the green `Code` button and selecting `Open with GitHub Desktop`.
 
 {% include gallery-figure.html img="py_ob_11.jpeg" alt="GitHub Browser view of the option to clone Python repositories through GitHub Desktop" caption="GitHub Browser view of the option to clone Python repositories through GitHub Desktop" width="100%" %}
 
-- In GitHub Desktop, select `Fetch Origin` and then select `Open in Visual Studio Code` to begin!
+- In GitHub Desktop, select `Fetch Origin` and then select `Open in Visual Studio Code` to begin! 
 
 {% include gallery-figure.html img="py_ob_08.jpeg" alt="GitHub Desktop Interface" caption="GitHub Desktop Interface" width="100%" %}

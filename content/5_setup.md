@@ -15,9 +15,9 @@ gallery: true
 ## Step 1: Install Bash 
 
 1A. **Windows: Download Git for Windows** (which includes Git Bash):
-   - Go to the [Git for Windows website](https://gitforwindows.org/).
-   - Download the installer and run it.
-   - Follow the installation prompts, and make sure to select the option to use Git from the Windows Command Prompt.
+   - Go to the [Git for Windows website](https://gitforwindows.org/){:target="_blank" rel="noopener"}
+   - Download the installer and run it
+   - Follow the installation prompts, and make sure to select the option to use Git from the Windows Command Prompt
 
 1B. **Mac: Install Git Using Homebrew**:
    - Open the Terminal and run the following command:
@@ -28,7 +28,7 @@ gallery: true
 ## Step 2: Install Python
 
 2A. **Windows: Install Python 3**:
-   - Go to the [Python official website](https://www.python.org/downloads/).
+   - Go to the [Python official website](https://www.python.org/downloads/){:target="_blank" rel="noopener"}
    - Download the latest version of Python (ensure to select the option to add Python to your PATH during installation).
 
 2B. **Mac: Install Python Using Homebrew**:
@@ -63,7 +63,7 @@ gallery: true
 ## Step 6: Organize Your Folders
 
 6. **Place Your PDF File:**
-   - Place the PDF file from which you want to extract highlights and annotations into the `annotation_extraction/A` folder.
+   - Place the PDF file from which you want to extract highlights and annotations into the `annotation_extraction/A` folder
 
 ## Step 7: Run the Python Script
 
@@ -72,7 +72,7 @@ gallery: true
      ```bash
      python script.py
      ```
-   - Or simply go to `script.py` and press the play button on the top right corner of the screen in Visual Studio Code.
+   - Or simply go to `script.py` and press the play button on the top right corner of the screen in Visual Studio Code
 
 <div class="symbol-container">
     <p class="symbol">&#10042;</p>

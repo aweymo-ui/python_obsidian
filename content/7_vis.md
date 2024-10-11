@@ -6,7 +6,7 @@ gallery: true
 
 {% include gallery-figure.html img="py_ob_01.gif" alt="Obsidian graph view click through, adding and removing various elements." caption="Obsidian Graph View." width="100%" %}
 
-**Like many data visualizations**, the graph view of Obsidian is simply made up of _nodes_ and _edges_, or lines between nodes. In this example, the nodes in blue and fuschia are books and the green nodes around them represent tags. 
+**Like many data visualizations**, the graph view of Obsidian is simply made up of _nodes_ and _edges_, or lines between nodes. In this example, the nodes in blue and fuchsia are books and the green nodes around them represent tags. 
 
 Opening the graph settings and working from the top down:
 

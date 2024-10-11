@@ -6,7 +6,7 @@ gallery: true
 
 {% include gallery-figure.html img="py_ob_15.jpeg" alt="Visualization of two book pages with highlights being extracted and categorized" caption="Identifying and Categorizing Highlighted Text" width="100%" %}
 
-[This Python tool](https://github.com/Scholarly-Projects/annotation_extraction) seeks out a series of **six highlight colors** which all have designations and then extracting the text with those highlights into two different markdown files where these excerpts are displayed either categorically or chronologically, from the beginning to the end of the document you annotated. Here are the colors (in RGB) and their corresponding categories as they are currently set up in the tool:
+[This Python tool](https://github.com/Scholarly-Projects/annotation_extraction){:target="_blank" rel="noopener"} seeks out a series of **six highlight colors** which all have designations and then extracting the text with those highlights into two different markdown files where these excerpts are displayed either categorically or chronologically, from the beginning to the end of the document you annotated. Here are the colors (in RGB) and their corresponding categories as they are currently set up in the tool:
 
 ```
    light_blue = (0.659, 0.929, 1.000)    
@@ -16,7 +16,7 @@ gallery: true
     purple = (0.902, 0.522, 1.0)          
     gray = (0.902, 0.902, 0.902)          
 
-color_map = {
+color_map = 
         "General Notes": light_blue,
         "Definitions, Locations, People, Organizations": yellow,
         "Author Thesis and Methodology": orange,

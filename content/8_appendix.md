@@ -22,7 +22,7 @@ gallery: true
 
 ## OCR Alternatives
 
-- Although it falls out of bounds of the no cost parameters of this presentation, I prefer the [Nitro PDF Pro](https://setapp.com/apps/nitro-pdf-pro) application which is available at a reasonable subscription price under the SetApp platform. In addition to having a more intuitive interface, it has better capabilities for both OCR, editing PDFs and concatenation
+- Although it falls out of bounds of the no cost parameters of this presentation, I prefer the [Nitro PDF Pro](https://setapp.com/apps/nitro-pdf-pro){:target="_blank" rel="noopener"} application which is available at a reasonable subscription price under the SetApp platform. In addition to having a more intuitive interface, it has better capabilities for both OCR, editing PDFs and concatenation
 - Also, it is very possible to build your own OCR Python tool with the open source Tesseract OCR engine, although the latest updates are not available for all platforms so I omitted the option for this study
 
 <div class="symbol-container">
@@ -39,13 +39,13 @@ To successfully run the Python tool for splitting PDF pages into left and right 
 
 #### 1A: Windows
 1. **Download Git for Windows** (which includes Git Bash):
-   - Go to the [Git for Windows website](https://gitforwindows.org/).
-   - Download the installer and run it.
-   - Follow the installation prompts, and make sure to select the option to use Git from the Windows Command Prompt.
+   - Go to the [Git for Windows website](https://gitforwindows.org/){:target="_blank" rel="noopener"}
+   - Download the installer and run it
+   - Follow the installation prompts, and make sure to select the option to use Git from the Windows Command Prompt
 
 #### 1B: Mac
 1. **Install Git using Homebrew**:
-   - Open your Terminal.
+   - Open your Terminal
    - If you don’t have Homebrew installed, run:
      ```bash
      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -59,7 +59,7 @@ To successfully run the Python tool for splitting PDF pages into left and right 
 
 #### 2A: Windows
 1. **Install Python 3:**
-   - Go to the [Python official website](https://www.python.org/downloads/).
+   - Go to the [Python official website](https://www.python.org/downloads/){:target="_blank" rel="noopener"}
    - Download the latest version of Python (ensure to select the option to add Python to your PATH during installation).
 
 #### 2B: Mac
