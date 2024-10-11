@@ -4,16 +4,15 @@ layout: page
 gallery: true
 ---
 
-{% include gallery-figure.html img="dl_cover.gif" alt="Animated gif of the title of this paper with colored lines connecting reel to reel audio spools." width="100%" %}
+{% include gallery-figure.html img="py_ob_banner.gif" alt="Animated gif of the title of this paper with a visualization of the Obsidian graph view adding and subtracting different areas of a vault" width="100%" %}
 
+[Book Splitter Python Tool](https://github.com/Scholarly-Projects/book_splitter){:target="_blank" rel="noopener"} 
 
-[Slides](https://indd.adobe.com/view/eea371ad-3ab8-44f5-abab-bb642d331ee2){:target="_blank" rel="noopener"}
-
-[Git Repository for Transcript Text Mining Tool](https://github.com/Scholarly-Projects/transcript_mining_base){:target="_blank" rel="noopener"}
+[Annotation Extraction Python Tool](https://github.com/Scholarly-Projects/annotation_extraction){:target="_blank" rel="noopener"}
 
 ## Overview
 
-This presentation will provide a walkthrough of new processes for creating subject tags across complete oral history collections developed at the U of I Center for Digital Inquiry and Learning over the summer of 2024. It details a workflow enabling student workers to run, modify, and expand tags during copyediting, aiming to enhance accuracy and ultimately help researchers identify connections between recordings. We'll cover the workflow, challenges it addresses and the limitations of data-driven, human-edited tagging.
+This presentation will provide a detailed method for making connections large text research collections, actively engaging in tagging to discover new contexts and visualize this research to understand the text from a bird's-eye perspective. This workshop will provide a complete walkthrough of how to utilize these tools and methods regardless of your previous technical experience. This method utilizes either open source materials or ones that are free of cost to all University of Idaho students and faculty and requires no coding beyond `#` and `/`.
 
 {% include toc.html %}
 
