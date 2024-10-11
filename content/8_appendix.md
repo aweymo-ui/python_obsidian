@@ -10,11 +10,11 @@ gallery: true
 
 ## Future Refinement
 
-- Expanding the list of features that the annotation extraction tool identifies and categorizes
+- Expanding the list of features that the annotation extraction tool identifies and categorizes, including:
     - Rectangle tools, capturing all of the text within the shape parameter
     - Typing tool notes
 - Resolving a tendency to merge words between line breaks without a space that needs adjustment
-    - Relatedly, I experimented for quite a while to use different spell checkers for texts that had bad OCR (usually resulting from bad original scans) and the results were not very good. I decided to omit these types of tools from the current iteration and just do minimal adjustments to the beginning of the script that detect line breaks, remove whitespace and corrupted characters
+    - Relatedly, I experimented for quite a while to use different spell checkers for texts that had bad OCR (usually resulting from bad original scans) and the results were not very good. I decided to omit these types of tools from the current iteration and just do minimal adjustments to the beginning of the script that detect line breaks, remove whitespace and corrupted characters (although they don't always work)
 
 <div class="symbol-container">
     <p class="symbol">&#10042;</p>
@@ -23,7 +23,7 @@ gallery: true
 ## OCR Alternatives
 
 - Although it falls out of bounds of the no cost parameters of this presentation, I prefer the [Nitro PDF Pro](https://setapp.com/apps/nitro-pdf-pro){:target="_blank" rel="noopener"} application which is available at a reasonable subscription price under the SetApp platform. In addition to having a more intuitive interface, it has better capabilities for both OCR, editing PDFs and concatenation
-- Also, it is very possible to build your own OCR Python tool with the open source Tesseract OCR engine, although the latest updates are not available for all platforms so I omitted the option for this study
+- You can also build your own OCR Python tool with the open source [Tesseract OCR engine](https://github.com/tesseract-ocr/tesseract){:target="_blank" rel="noopener"}, but I found the download and installation process, now [only updated by third parties](https://tesseract-ocr.github.io/tessdoc/Downloads.html){:target="_blank" rel="noopener"} a little unintuitive for this workshop
 
 <div class="symbol-container">
     <p class="symbol">&#10042;</p>
