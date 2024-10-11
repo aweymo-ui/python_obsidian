@@ -39,7 +39,7 @@ This tool works by importing the `fitz` module of PyMuPDF, a library used for wo
 
 - Cleaning text
 - Removing hyphenated line breaks
-- Removing line breaks within text and replacing them with a space (with varying degrees of success… see the Future Refinement section)
+- Removing line breaks within text and replacing them with a space (with varying degrees of success… see the [Future Refinement](./8_appendix.html#future-refinement) section)
 - Removing non-ASCII characters and extra whitespace as it occurs in the text
 - Extracting highlighted text, mapping colors to their respective categories, using a tolerance to determine if the detected color is close enough to the reference color - specified above to be classified
 - Exporting to markdown… surprisingly quickly!
