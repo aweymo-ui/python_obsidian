@@ -12,7 +12,7 @@ gallery: true
 
 ## Overview
 
-This presentation will provide a detailed method for making connections large text research collections, actively engaging in tagging to discover new contexts and visualize this research to understand the text from a bird's-eye perspective. This workshop will provide a complete walkthrough of how to utilize these tools and methods regardless of your previous technical experience. This method utilizes either open source materials or ones that are free of cost to all University of Idaho students and faculty and requires no coding beyond `#` and `/`.
+This workshop will provide a detailed method for making connections across large text research collections, creating custom tags and visualizing your research from a bird's-eye perspective. This workshop will provide a complete walkthrough of how to utilize these tools and methods regardless of your previous technical experience requiring no coding beyond `#` and `/`. This workflow utilizes either open source materials or ones that are free of cost to all University of Idaho students and faculty.
 
 {% include toc.html %}
 

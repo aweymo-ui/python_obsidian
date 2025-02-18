@@ -5,15 +5,15 @@ gallery: true
 ---
 
 
-**Hello, my name is Andrew Weymouth** and I have worked with the University of Idaho Library as the [Digital Initiatives Librarian](https://www.lib.uidaho.edu/about/people/aweymouth.html){:target="_blank" rel="noopener"} in the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/){:target="_blank" rel="noopener"} (CDIL) department since the fall of 2023. My work generally consists of creating and maintaining our digital collections, working with CDIL fellowship recipients, helping to rethink processes and introducing new digital scholarship tools to the department.
+**Hello, my name is Andrew Weymouth** and I have worked with the University of Idaho Library as the [Digital Initiatives Librarian](https://www.lib.uidaho.edu/about/people/aweymouth.html){:target="_blank" rel="noopener"} in the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/){:target="_blank" rel="noopener"} (CDIL) department since the fall of 2023. My work generally consists of creating and maintaining our digital collections, working with fellowship recipients, helping to rethink processes and introducing new digital scholarship tools to the department.
 
-{% include gallery-figure.html img="py_ob_02.jpeg" alt="History books overlapping one another." caption="Three of Many Other Books the Author Needs to Read Throughout Fall 2024" width="75%" %}
+{% include gallery-figure.html img="py_ob_02.jpeg" alt="History books overlapping one another." caption="Three of Many Other Books the Author Needs to Read for their MA in History" width="75%" %}
 
 ## Why?
 
-This work was prompted by my pursuing master’s in History with the University of Idaho in the fall of 2024 while also working as a faculty member with the library. I wanted to think about creating a note taking system that could visualize connections across many different books that would be beneficial for creating historiographies specifically, but would also be helpful while creating literature reviews, scientific reviews and environmental scans. 
+This work was prompted by my pursuing master’s in History with University of Idaho in the fall of 2024 while also working as a faculty member with the library. I wanted to create a note taking system that could visualize connections across all of the literature I am reading to create historiographies specifically, but would also be helpful while creating literature reviews, scientific reviews and environmental scans that I need to do to create scholarly writing. 
 
-{% include feature/alert.html text="Note: Everything that I will be talking about today is completely open source or available to you at no cost as a University of Idaho student or staff member." color="light" align="left" %}
+## Why does that matter to attendees?
 
 {% include gallery-figure.html img="py_ob_01.gif" alt="Obsidian graph view click through, adding and removing various elements." caption="Obsidian Graph View." width="75%" %}
 
