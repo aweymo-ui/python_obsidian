@@ -5,11 +5,11 @@ gallery: true
 ---
 
 
-The only requirement for using the method this work is outlining is that **you need to be working with digital versions of your text material** and that these documents have a layer of OCR or Optical Character Recognition. 
+To use this annotation workflow you will need a digital version of your text material in PDF file format with a layer of OCR or Optical Character Recognition. 
 
 {% include gallery-figure.html img="py_ob_13.gif" alt="Visualization of a digital book's OCR layer" caption="Visualization of a digital book's OCR layer" width="75%" %}
 
-This process involves scanning pages, segmenting different areas of text (like recognizing all of the different columns in a newspaper, for instance), extracting features and finally recognizing individual characters. This _interpretation of the text_ is then overlaid onto the image or document where it can now be keyword searchable and used with text to speech assistive technology. If you are using [downloadable ebooks](https://www.lib.uidaho.edu/find/ebooks.html){:target="_blank" rel="noopener"} or request a digitization [physical books through our interlibrary loan](https://www.lib.uidaho.edu/services/ill/docdelivery.html){:target="_blank" rel="noopener"} these items will come with a layer of OCR. 
+The optical character recognition process involves scanning pages, segmenting different areas of text (like recognizing all of the different columns in a newspaper, for instance), extracting features and finally recognizing individual characters. This _interpretation of the text_ is then overlaid onto the image or document where it can now be keyword searchable and used with text to speech assistive technology. If you are using [downloadable ebooks](https://www.lib.uidaho.edu/find/ebooks.html){:target="_blank" rel="noopener"} or request a digitization [physical books through our interlibrary loan](https://www.lib.uidaho.edu/services/ill/docdelivery.html){:target="_blank" rel="noopener"} these items will come with a layer of OCR. 
 
 <div class="symbol-container">
     <p class="symbol">&#10042;</p>

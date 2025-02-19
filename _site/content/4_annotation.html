@@ -48,7 +48,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 
 
-<!-- Last build date: 2025-02-18 -->
+<!-- Last build date: 2025-02-19 -->
   </head>
 
   <body class="d-flex flex-column h-100">
@@ -76,9 +76,9 @@
                 </li>
             
                 <li class="nav-item">
-                    <a class="nav-link p-3 h-100" href="/content/2_accounts.html">
+                    <a class="nav-link p-3 h-100" href="/content/2_starting.html">
                         
-                            Accounts
+                            Getting Started
                         
                     </a>
                 </li>
@@ -100,9 +100,9 @@
                 </li>
             
                 <li class="nav-item">
-                    <a class="nav-link p-3 h-100" href="/content/5_setup.html">
+                    <a class="nav-link p-3 h-100" href="/content/5_python.html">
                         
-                            Set-up
+                            Running Python
                         
                     </a>
                 </li>
@@ -151,7 +151,7 @@
 <figure class="figure d-block text-center p-3">
     <a class="spotlight" href="/images/py_ob_15.jpeg"><img data-src="/images/py_ob_15.jpeg" alt="Visualization of two book pages with highlights being extracted and categorized" style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Identifying and Categorizing Highlighted Text</figcaption></figure>
 
-<p><a href="https://github.com/Scholarly-Projects/annotation_extraction" target="_blank" rel="noopener">This Python tool</a> seeks out a series of <strong>six highlight colors</strong> which all have designations and then extracting the text with those highlights into two different markdown files where these excerpts are displayed either categorically or chronologically, from the beginning to the end of the document you annotated. Here are the colors (in RGB) and their corresponding categories as they are currently set up in the tool:</p>
+<p><a href="https://github.com/Scholarly-Projects/annotation_extraction" target="_blank" rel="noopener">This Python tool</a> seeks out a series of <strong>six highlight colors</strong> which all have designations and then extracting the text with those highlights into two different markdown files where these excerpts are displayed either categorically or chronologically, from the beginning to the end of the document you annotated. Here are the colors and their corresponding categories as they are currently set up in the tool. The numbers after each of the color names is the percent of red, green and blue in the RGB color value.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   light_blue = (0.659, 0.929, 1.000)    
     yellow = (1.0, 1.0, 0.039)            
@@ -180,17 +180,24 @@ color_map =
     <p class="symbol">&#10042;</p>
 </div>
 
-<p><strong>Functionally</strong>, the tool begins by:</p>
+<p><strong>Here are all of the steps of the Python code:</strong></p>
 
 <ul>
-  <li>Cleaning text</li>
-  <li>Removing hyphenated line breaks</li>
-  <li>Removing line breaks within text and replacing them with a space (with varying degrees of success… see the <a href="./8_appendix.html#future-refinement">Future Refinement</a> section)</li>
-  <li>Removing non-ASCII characters and extra whitespace as it occurs in the text</li>
-  <li>Extracting highlighted text, mapping colors to their respective categories, using a tolerance to determine if the detected color is close enough to the reference color - specified above to be classified</li>
-  <li>Exporting to markdown… surprisingly quickly!</li>
+  <li>Cleaning text:
+    <ul>
+      <li>Removing hyphenated line breaks</li>
+      <li>Removing line breaks within text and replacing them with a space (with varying degrees of success… see the <a href="./8_appendix.html#future-refinement">Future Refinement</a> section)</li>
+      <li>Removing non-ASCII characters and extra whitespace as it occurs in the text</li>
+    </ul>
+  </li>
+  <li>Extracting highlighted text, mapping colors to their respective categories and using a tolerance to determine if the detected color is close enough to the reference color</li>
+  <li>exporting these extracted passages into two different folders in the B folder of the Python tool
+    <ul>
+      <li>One arranged categorically (important, definitions, quotes, etc.)</li>
+      <li>One arranged chronologically (page 1, page 2, page 3, etc.)</li>
+    </ul>
+  </li>
 </ul>
-
 
 
 </div>
@@ -206,13 +213,13 @@ color_map =
         
         <li class="nav-item"><a class="nav-link h3" href="/content/1_intro.html">Introduction</a></li>
         
-        <li class="nav-item"><a class="nav-link h3" href="/content/2_accounts.html">Accounts</a></li>
+        <li class="nav-item"><a class="nav-link h3" href="/content/2_starting.html">Getting Started</a></li>
         
         <li class="nav-item"><a class="nav-link h3" href="/content/3_prep.html">Preparation</a></li>
         
         <li class="nav-item"><a class="nav-link h3 active" href="/content/4_annotation.html">Annotation Extraction Tool</a></li>
         
-        <li class="nav-item"><a class="nav-link h3" href="/content/5_setup.html">Set-up</a></li>
+        <li class="nav-item"><a class="nav-link h3" href="/content/5_python.html">Running Python</a></li>
         
         <li class="nav-item"><a class="nav-link h3" href="/content/6_obsidian.html">Obsidian</a></li>
         
