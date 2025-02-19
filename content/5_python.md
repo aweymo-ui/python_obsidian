@@ -4,7 +4,11 @@ nav: Running Python
 gallery: true
 ---
 
-**These instructions are going to assume you have never run a Python environment before and you are already working inside the cloned repository for the [annotation extraction tool](https://github.com/Scholarly-Projects/annotation_extraction){:target="_blank" rel="noopener"}**. Note that after step 2, the same instructions are applicable to both Windows and Mac users. For all of the commands entered on the command line after step one, I would recommend sending from the Bash terminal in Visual Studio Code. To begin:
+**These instructions are going to assume you have never run a Python environment before and you are already working inside the cloned repository for the [annotation extraction tool](https://github.com/Scholarly-Projects/annotation_extraction){:target="_blank" rel="noopener"}**. All commands are designed to be executed from a Bash-compatible command line interface, such as Git Bash (Windows) or Terminal (macOS), within Visual Studio Code or any terminal emulator.
+
+{% include alert.html text="Note that after step 2, the same instructions are applicable to both Windows and Mac users." color="light" align="right" %}
+
+To begin:
 
 <div class="symbol-container">
     <p class="symbol">&#10042;</p>
@@ -69,4 +73,4 @@ gallery: true
 </div>
 <br>
 
-**After following these steps**, your Python tool should run successfully, and you will find the extracted highlights in the `annotation_extraction/B` folder in two separate markdown files organized categorically and chronologically.
+**After following these steps** your Python tool should run successfully, and you will find the extracted highlights in the `annotation_extraction/B` folder in two separate markdown files organized categorically and chronologically.
