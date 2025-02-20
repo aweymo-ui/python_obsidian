@@ -33,7 +33,7 @@ gallery: true
 
 The set-up instructions for both this tool and the Annotation Extraction Tool are also located in their repositories under `set-up.md`.
 
-To successfully run the Python tool for splitting PDF pages into left and right halves, please follow the instructions below to install the required software and dependencies.
+To successfully run the Python tool for splitting PDF pages into left and right halves, clone the repository and follow the instructions below:
 
 ### Step 1: Install Git and Bash
 
@@ -102,20 +102,12 @@ To successfully run the Python tool for splitting PDF pages into left and right 
      pip install -r requirements.txt
      ```
 
-### Step 5: Clone the Repository
-
-1. **Clone the Repository**:
-   - Navigate to the directory where you want to save the project and run:
-     ```bash
-     git clone https://github.com/Scholarly-Projects/book_splitter.git
-     ```
-
-### Step 6: Place Your PDF Files
+### Step 5: Place Your PDF Files
 
 1. **Place Your PDF Files**:
    - Place the PDF files you want to split into the `A` folder within the cloned repository.
 
-### Step 7: Run the Python Script
+### Step 6: Run the Python Script
 
 1. **Run the Python Script**:
    - In the command line, navigate to the cloned repository directory and run:
@@ -129,11 +121,3 @@ After following these steps, your PDF splitting tool should run successfully, an
 <div class="symbol-container">
     <p class="symbol">&#10042;</p>
 </div>
-
-## About the Author
-
-{% include gallery-figure.html img="headshot_circle.png" alt="Photo of the Author" caption="Andrew Weymouth" width="50%" %}
-
-[Professional Site](https://aweymo.github.io/base/)
-
-Andrew Weymouth is the Digital Initiatives Librarian at University of Idaho, specializing in static web design to curate the institution’s special collections and partner with faculty and students on fellowship projects. His work spans digital scholarship projects at the universities of Oregon and Washington and the Tacoma Northwest Room archives, including long form audio public history projects, architectural databases, oral history and network visualizations. He writes about labor, architecture, underrepresented communities and using digital methods to survey equity in archival collections.

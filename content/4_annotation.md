@@ -27,7 +27,7 @@ color_map =
 
 **Both the colors and the designations can be customized to your research** but note that the colors need to be distinct enough that the tool can differentiate between a light blue and a light green, for instance. 
 
-{% include gallery-figure.html img="py_ob_18.gif" alt="Demo of Annotation Extraction Tool" caption="Demo of Annotation Extraction Tool" width="100%" %}
+{% include gallery-figure.html img="py_ob_18_z.gif" alt="Demo of Annotation Extraction Tool" caption="Demo of Annotation Extraction Tool" %}
 
 This tool works by importing the `fitz` module of PyMuPDF, a library used for working with PDF files, including extracting text and handling annotations. The header material also includes importing Python’s `os` module, which allows you to interact with the operating system and reading directories and file paths and the `re` module, which provides regular expression operations and searching and modifying the text we will be extracting. 
 

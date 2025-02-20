@@ -4,7 +4,7 @@ nav: Obsidian
 gallery: true
 ---
 
-{% include gallery-figure.html img="py_ob_18.gif" alt="Demo of Annotation Extraction Tool" caption="Demo of Annotation Extraction Tool, Showing Processed Markdown Files Dropped into Obsidian" width="100%" %}
+{% include gallery-figure.html img="py_ob_18_z.gif" alt="Demo of Annotation Extraction Tool" caption="Demo of Annotation Extraction Tool, Showing Processed Markdown Files Dropped into Obsidian" width="100%" %}
 
 **Now that we have our two markdown files of the extracted annotations and their highlight categories**: 
 - Open your Obsidian vault 
@@ -31,7 +31,7 @@ Additionally, if you type “tag:” you will now be able to see the six tags th
 
 **While you can do detailed tagging in either file**, I’ve found that this process makes the most sense in the chronological export, but I still like to have the categorized markdown file in case I want to look at just the "important" or "stats" sections. Whichever one you choose to do detailed tagging on, think of this as your primary notes document moving forward. 
 
-{% include gallery-figure.html img="py_ob_20.gif" alt="Demo Detailed Tagging Process" caption="Demo Detailed Tagging Process, Including Obsidian Dropdown View of Preexisting Tags" width="100%" %}
+{% include gallery-figure.html img="py_ob_20_z.gif" alt="Demo Detailed Tagging Process" caption="Tagging Process, Including Obsidian Dropdown View of Preexisting Tags" width="100%" %}
 
 At this point in your research, you’ve read this text once and highlighted section based on category. While you are reviewing these notes again, take a moment to reassess the initial tags (perhaps an `#important` passage is actually a `#general` note or the reverse) and, most importantly, create new tags. Perhaps an `#important` passage you've initially highlighted in animal sciences also has to do with `#livestock-genetics`,`#animal-nutrition` or `#behavior-ethology`? Maybe your initial tag of a `#quote` in a book covering botany is also indicative of larger themes you would like to track about `#plant-morphology`, the `#photosynthesis-process` or `#ecological-interactions` that you would like to see together at a glance? 
 

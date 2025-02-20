@@ -40,7 +40,7 @@ Obsidian workspaces are called `vaults` which are essentially just folders of ma
 
 Unlike cloud-based note taking apps, Obsidian is designed to be fully functional on your local device, not even requiring an internet connection, which is key if you are working on research projects with sensitive data. While Obsidian has a subscription cloud based version called `Sync` and `Publish`, this workshop will show you how to host your site on a free cloud storage such as Google Drive or Microsoft OneDrive so you can sync your vaults between devices at no additional cost.
 
-{% include gallery-figure.html img="py_ob_01.gif" alt="Obsidian graph view click through, adding and removing various elements." caption="Obsidian Graph View." width="75%" %}
+{% include gallery-figure.html img="py_ob_01_z.gif" alt="Obsidian graph view click through, adding and removing various elements." caption="Obsidian Graph View." %}
 
 Obsidian's key strength is it's ability to link notes, tags and subtags together, creating an interconnected "web of knowledge". The built-in **graph** view allows researchers to interact with a visual representation of these connections, which can be helpful in understanding overarching themes and relationships between large amounts of text rather than simply filtering by keyword searches. Additionally, I find that the process of creating tags and thinking about the ways they may or may not apply to different subject matter is a uniquely proactive, creative process that allows researchers to understand the material in new ways. 
 
