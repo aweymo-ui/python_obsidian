@@ -8,13 +8,19 @@ gallery: true
 
 **Like many data visualizations**, the graph view of Obsidian is simply made up of _nodes_, the circles in this case, that represent an item and _edges_, which are the lines between the nodes. In this example, the nodes in blue and fuchsia are books and the green nodes around them represent tags. 
 
+<br>
+<div class="symbol-container">
+    <p class="symbol">&#9682;</p>
+</div>
+<br>
+
 Opening the graph settings and working from the top down:
 
 {% include gallery-figure.html img="py_ob_21.jpeg" alt="Obsidian graph view click through, adding and removing various elements." caption="Obsidian Graph View." %}
 
-- I’ve toggled off viewing the attachments, existing files and _orphans_, i.e. notes that are not linked to anything else in the vault. This will leave us just with our primary notes document any other meeting notes that we have added tags to
+- I’ve toggled off viewing file attachments, existing files and _orphans_, i.e. notes that are not linked to anything else in the vault. This will leave us just with our primary notes document any other meeting notes that we have added tags to
 - In **Groups**, I have added “path: “HIST 502” to differentiate the books between the two courses
-- In **Display**, I’ve lowered the edge thickness and turned off the arrows. This is intended for researchers who are implementing linking in their documents, which we aren’t engaging in with this method
+- In **Display**, I’ve lowered the edge thickness and turned off the arrows. This is intended for researchers who are implementing linking in their documents
 - Finally, in **Forces**, the default will display your nodes in a nice, neat little sphere, but it doesn’t tell you very much. However, I’ve found this setting provides some interesting insights:
 
 ```

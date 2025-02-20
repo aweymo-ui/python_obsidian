@@ -151,7 +151,7 @@
 <figure class="figure d-block text-center p-3">
     <a class="spotlight" href="/images/py_ob_15.jpeg"><img data-src="/images/py_ob_15.jpeg" alt="Visualization of two book pages with highlights being extracted and categorized" style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Identifying and Categorizing Highlighted Text</figcaption></figure>
 
-<p><a href="https://github.com/Scholarly-Projects/annotation_extraction" target="_blank" rel="noopener">This Python tool</a> detects a series of <strong>six highlight colors</strong> which all have designations and then extracting the text with those highlights into two different markdown files where these excerpts are displayed either categorically or chronologically, from the beginning to the end of the document you annotated.</p>
+<p><a href="https://github.com/Scholarly-Projects/annotation_extraction" target="_blank" rel="noopener">This Python tool</a> detects a series of <strong>six highlight colors</strong> which all have designations and then extracts the text with those highlights into two different markdown files where these excerpts are displayed either categorically or chronologically, from the beginning to the end of the document you annotated.</p>
 
 <p><br /></p>
 <div class="symbol-container">
@@ -159,7 +159,7 @@
 </div>
 <p><br /></p>
 
-<p>Here are the colors and their corresponding categories as they are currently set up in the tool. The numbers after each of the color names is the percent of red, green and blue in the RGB color value.</p>
+<p>Here are the colors and their corresponding categories as they are currently set up in the tool but both of these values are customizable depending on your area of study. The numbers after each of the color names is the percent of red, green and blue in the RGB color value.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   light_blue = (0.659, 0.929, 1.000)    
     yellow = (1.0, 1.0, 0.039)            
@@ -177,7 +177,7 @@ color_map =
         "Quotes": gray
 </code></pre></div></div>
 
-<p><strong>Both the colors and the designations can be customized to your research</strong> but note that the colors need to be distinct enough that the tool can differentiate between a light blue and a light green, for instance.</p>
+<p><strong>Both the colors and the designations can be customized to your research</strong> but note that the colors need to be distinct enough that the tool can differentiate between them.</p>
 
 <p><br /></p>
 <div class="symbol-container">
@@ -185,20 +185,20 @@ color_map =
 </div>
 <p><br /></p>
 
-<p>This tool works by importing the <code class="language-plaintext highlighter-rouge">fitz</code> module of PyMuPDF, a library used for working with PDF files, including extracting text and handling annotations. The header material also includes importing Python’s <code class="language-plaintext highlighter-rouge">os</code> module, which allows you to interact with the operating system and reading directories and file paths and the <code class="language-plaintext highlighter-rouge">re</code> module, which provides regular expression operations and searching and modifying the text we will be extracting.</p>
+<p>This tool works by importing the <code class="language-plaintext highlighter-rouge">fitz</code> module of PyMuPDF, a library used for working with PDF files, including extracting text and handling annotations. The header material also includes importing Python’s <code class="language-plaintext highlighter-rouge">os</code> module, which allows you to interact with the operating system, reading directories and file paths, and the <code class="language-plaintext highlighter-rouge">re</code> module, which provides regular expression operations as well as searching and modifying the text we will be extracting.</p>
 
 <p><strong>Here are all of the steps of the Python code:</strong></p>
 
 <ul>
-  <li>Cleaning text:
+  <li>Cleaning OCR text:
     <ul>
       <li>Removing hyphenated line breaks</li>
       <li>Removing line breaks within text and replacing them with a space (with varying degrees of success… see the <a href="./8_appendix.html#future-refinement">Future Refinement</a> section)</li>
-      <li>Removing non-ASCII characters and extra whitespace as it occurs in the text</li>
+      <li>Removing corrupted characters and extra whitespace as it occurs in the text</li>
     </ul>
   </li>
   <li>Extracting highlighted text, mapping colors to their respective categories and using a tolerance to determine if the detected color is close enough to the reference color</li>
-  <li>exporting these extracted passages into two different folders in the B folder of the Python tool
+  <li>Generating these extracted passages into two different files in the B folder within the Python tool
     <ul>
       <li>One arranged categorically (important, definitions, quotes, etc.)</li>
       <li>One arranged chronologically (page 1, page 2, page 3, etc.)</li>
