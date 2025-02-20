@@ -6,7 +6,7 @@ gallery: true
 
 {% include gallery-figure.html img="py_ob_15.jpeg" alt="Visualization of two book pages with highlights being extracted and categorized" caption="Identifying and Categorizing Highlighted Text" width="100%" %}
 
-[This Python tool](https://github.com/Scholarly-Projects/annotation_extraction){:target="_blank" rel="noopener"} seeks out a series of **six highlight colors** which all have designations and then extracting the text with those highlights into two different markdown files where these excerpts are displayed either categorically or chronologically, from the beginning to the end of the document you annotated. Here are the colors and their corresponding categories as they are currently set up in the tool. The numbers after each of the color names is the percent of red, green and blue in the RGB color value.
+[This Python tool](https://github.com/Scholarly-Projects/annotation_extraction){:target="_blank" rel="noopener"} detects a series of **six highlight colors** which all have designations and then extracting the text with those highlights into two different markdown files where these excerpts are displayed either categorically or chronologically, from the beginning to the end of the document you annotated. Here are the colors and their corresponding categories as they are currently set up in the tool. The numbers after each of the color names is the percent of red, green and blue in the RGB color value.
 
 ```
    light_blue = (0.659, 0.929, 1.000)    

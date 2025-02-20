@@ -25,4 +25,4 @@ With this in mind, I built a [Book Splitter](https://github.com/Scholarly-Projec
     <p class="symbol">&#10042;</p>
 </div>
 
-**Now that you have an OCR layer**, you will need to read and highlight your material. This can either be done either in Adobe Acrobat or a completely open source option that I like called [Okular](https://okular.kde.org/download/){:target="_blank" rel="noopener"}, where you can easily build out an unlimited number of custom highlights sets. 
+**Now that you have an OCR layer**, you will need to read and highlight your material. This can either be done either in Adobe Acrobat or a freely available option that I like called [Okular](https://okular.kde.org/download/){:target="_blank" rel="noopener"}, where you can easily build out an unlimited number of custom highlights sets. 
