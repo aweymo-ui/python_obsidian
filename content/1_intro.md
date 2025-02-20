@@ -31,6 +31,10 @@ I was initially inspired to pursue Obsidian by a Tech Talk I attended last year 
 Zotero excels as a temporary processing area, where you can drop all of your research, easily record websites using their browser plug-in, annotate in your preferred word processor and then export in a lightweight file that can be opened again in Zotero whenever you need it again. Also, unlike Obsidian, it is very convenient to collaboratively engage with reading material in shared libraries, which is helpful for conducting group literature reviews.
 
 <br>
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+<br>
 
 ## Obsidian
 

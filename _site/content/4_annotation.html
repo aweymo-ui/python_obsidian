@@ -48,7 +48,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 
 
-<!-- Last build date: 2025-02-19 -->
+<!-- Last build date: 2025-02-20 -->
   </head>
 
   <body class="d-flex flex-column h-100">
@@ -151,7 +151,15 @@
 <figure class="figure d-block text-center p-3">
     <a class="spotlight" href="/images/py_ob_15.jpeg"><img data-src="/images/py_ob_15.jpeg" alt="Visualization of two book pages with highlights being extracted and categorized" style="width:100%;" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Identifying and Categorizing Highlighted Text</figcaption></figure>
 
-<p><a href="https://github.com/Scholarly-Projects/annotation_extraction" target="_blank" rel="noopener">This Python tool</a> detects a series of <strong>six highlight colors</strong> which all have designations and then extracting the text with those highlights into two different markdown files where these excerpts are displayed either categorically or chronologically, from the beginning to the end of the document you annotated. Here are the colors and their corresponding categories as they are currently set up in the tool. The numbers after each of the color names is the percent of red, green and blue in the RGB color value.</p>
+<p><a href="https://github.com/Scholarly-Projects/annotation_extraction" target="_blank" rel="noopener">This Python tool</a> detects a series of <strong>six highlight colors</strong> which all have designations and then extracting the text with those highlights into two different markdown files where these excerpts are displayed either categorically or chronologically, from the beginning to the end of the document you annotated.</p>
+
+<p><br /></p>
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+<p><br /></p>
+
+<p>Here are the colors and their corresponding categories as they are currently set up in the tool. The numbers after each of the color names is the percent of red, green and blue in the RGB color value.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   light_blue = (0.659, 0.929, 1.000)    
     yellow = (1.0, 1.0, 0.039)            
@@ -171,14 +179,13 @@ color_map =
 
 <p><strong>Both the colors and the designations can be customized to your research</strong> but note that the colors need to be distinct enough that the tool can differentiate between a light blue and a light green, for instance.</p>
 
-<figure class="figure d-block text-center p-3">
-    <a class="spotlight" href="/images/py_ob_18_z.gif"><img data-src="/images/py_ob_18_z.gif" alt="Demo of Annotation Extraction Tool" class="figure-img img-fluid lazyload" /></a><figcaption class="figure-caption">Demo of Annotation Extraction Tool</figcaption></figure>
+<p><br /></p>
+<div class="symbol-container">
+    <p class="symbol">&#9682;</p>
+</div>
+<p><br /></p>
 
 <p>This tool works by importing the <code class="language-plaintext highlighter-rouge">fitz</code> module of PyMuPDF, a library used for working with PDF files, including extracting text and handling annotations. The header material also includes importing Python’s <code class="language-plaintext highlighter-rouge">os</code> module, which allows you to interact with the operating system and reading directories and file paths and the <code class="language-plaintext highlighter-rouge">re</code> module, which provides regular expression operations and searching and modifying the text we will be extracting.</p>
-
-<div class="symbol-container">
-    <p class="symbol">&#10042;</p>
-</div>
 
 <p><strong>Here are all of the steps of the Python code:</strong></p>
 

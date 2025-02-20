@@ -1,3 +1,3 @@
 # Using Python Tools and Obsidian to Connect and Visualize Research
 
-Presentation on using custom Python tools to correct optical character recognition layers and extract annotations from digitized text and contextualizing these notes with Obsidian detailed tagging methods to enrich scholarly research, _Andrew Weymouth, Fall 2024_.
+Workshop on using Python to extract annotations by highlight color to automate and expedite tagging process in Obsidian for research projects. Created for the U of I 2025 Tech Talk series. _Andrew Weymouth, Winter 2025_.

@@ -6,9 +6,13 @@ gallery: true
 
 {% include gallery-figure.html img="py_ob_banner.gif" alt="Animated gif of the title of this paper with a visualization of the Obsidian graph view adding and subtracting different areas of a vault" width="100%" %}
 
-[Book Splitter Python Tool](https://github.com/Scholarly-Projects/book_splitter){:target="_blank" rel="noopener"} 
+[Slide Deck](https://indd.adobe.com/view/0beca42e-8c35-495e-aa19-d158c58620e7){:target="_blank" rel="noopener"}
 
-[Annotation Extraction Python Tool](https://github.com/Scholarly-Projects/annotation_extraction){:target="_blank" rel="noopener"}
+[Annotation Extraction Tool](https://github.com/Scholarly-Projects/annotation_extraction){:target="_blank" rel="noopener"}
+
+[Book Splitter Tool](https://github.com/Scholarly-Projects/book_splitter){:target="_blank" rel="noopener"} 
+
+<br>
 
 ## Overview
 

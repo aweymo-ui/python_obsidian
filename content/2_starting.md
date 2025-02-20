@@ -26,7 +26,7 @@ This is all you need to know to use the annotation workflow but please see my [I
 
 <br>
 <div class="symbol-container">
-    <p class="symbol">&#10042;</p>
+    <p class="symbol">&#9682;</p>
 </div>
 <br>
 

@@ -6,7 +6,15 @@ gallery: true
 
 {% include gallery-figure.html img="py_ob_15.jpeg" alt="Visualization of two book pages with highlights being extracted and categorized" caption="Identifying and Categorizing Highlighted Text" width="100%" %}
 
-[This Python tool](https://github.com/Scholarly-Projects/annotation_extraction){:target="_blank" rel="noopener"} detects a series of **six highlight colors** which all have designations and then extracting the text with those highlights into two different markdown files where these excerpts are displayed either categorically or chronologically, from the beginning to the end of the document you annotated. Here are the colors and their corresponding categories as they are currently set up in the tool. The numbers after each of the color names is the percent of red, green and blue in the RGB color value.
+[This Python tool](https://github.com/Scholarly-Projects/annotation_extraction){:target="_blank" rel="noopener"} detects a series of **six highlight colors** which all have designations and then extracting the text with those highlights into two different markdown files where these excerpts are displayed either categorically or chronologically, from the beginning to the end of the document you annotated. 
+
+<br>
+<div class="symbol-container">
+    <p class="symbol">&#10042;</p>
+</div>
+<br>
+
+Here are the colors and their corresponding categories as they are currently set up in the tool. The numbers after each of the color names is the percent of red, green and blue in the RGB color value.
 
 ```
    light_blue = (0.659, 0.929, 1.000)    
@@ -27,13 +35,13 @@ color_map =
 
 **Both the colors and the designations can be customized to your research** but note that the colors need to be distinct enough that the tool can differentiate between a light blue and a light green, for instance. 
 
-{% include gallery-figure.html img="py_ob_18_z.gif" alt="Demo of Annotation Extraction Tool" caption="Demo of Annotation Extraction Tool" %}
+<br>
+<div class="symbol-container">
+    <p class="symbol">&#9682;</p>
+</div>
+<br>
 
 This tool works by importing the `fitz` module of PyMuPDF, a library used for working with PDF files, including extracting text and handling annotations. The header material also includes importing Python’s `os` module, which allows you to interact with the operating system and reading directories and file paths and the `re` module, which provides regular expression operations and searching and modifying the text we will be extracting. 
-
-<div class="symbol-container">
-    <p class="symbol">&#10042;</p>
-</div>
 
 **Here are all of the steps of the Python code:** 
 
