@@ -10,7 +10,7 @@ gallery: true
 
 ## Zotero
 
-**To begin**, first create an account by visiting the [user login page](https://www.zotero.org/user/login/){:target="_blank" rel="noopener"} and selecting `Register for a Free Account`, where you will create a username, add email and password. After validating your email address, visit the [downloads page](https://www.zotero.org/download/){:target="_blank" rel="noopener"} and select the desktop app icon on the left. On Windows, simply run the setup program Zotero provides. On a Mac the only step you need to do is to drag your .dmg file from the downloads folder into your applications folder before opening. If you happen to be on Linux, please reference [these setup instructions](https://www.zotero.org/support/installation){:target="_blank" rel="noopener"} provided by Zotero. 
+**To begin**, first create an account by visiting the [user login page](https://www.zotero.org/user/login/){:target="_blank" rel="noopener"} and selecting `Register for a Free Account`, where you will create a username, add email and password. After validating your email address, visit the [downloads page](https://www.zotero.org/download/){:target="_blank" rel="noopener"} and select the desktop app icon on the left. On Windows, you will simply run the setup program Zotero provides. On a Mac the only step you need to do is to drag your .dmg file from the downloads folder into your applications folder before opening. If you happen to be on Linux, please reference [these setup instructions](https://www.zotero.org/support/installation){:target="_blank" rel="noopener"} provided by Zotero. 
 
 <br>
 
@@ -20,9 +20,9 @@ Once you open the desktop application for the first time, go to your menu, selec
 
 {% include gallery-figure.html img="zot_02.gif" alt="Demonstration of how to connect the Zotero desktop application to your web library and sync" caption="Connecting Zotero desktop application to your web library and sync" width="100%" %}
 
-{% include alert.html text="Note: If you have multiple desktops and laptops that you would like to use with your Zotero account, this is no problem! There is no maximum number of “chairs” a user with a free account can access. Simply [download](https://www.zotero.org/download/) on the new device and enter your username and password again in the settings to sync between multiple devices. " color="light" align="right" %}
+{% include alert.html text="Note: If you have multiple desktops and laptops that you would like to use with your Zotero account, this is no problem! There is no maximum number of “chairs” a user with a free account can access. Simply [download](https://www.zotero.org/download/) the desktop application on the new device and enter your username and password again in the settings to sync between multiple devices. " color="light" align="right" %}
 
-This is all you need to know to use the annotation workflow but please see my [Introduction to Zotero](https://aweymo-ui.github.io/zotero_intro/){:target="_blank" rel="noopener"} workshop for more.
+This is all you need to know to use the annotation workflow but please see my [Introduction to Zotero](https://aweymo-ui.github.io/zotero_intro/){:target="_blank" rel="noopener"} workshop for more functionalities.
 
 <br>
 <div class="symbol-container">
@@ -32,7 +32,7 @@ This is all you need to know to use the annotation workflow but please see my [I
 
 ## Obsidian
 
-**To create an Obsidian account**, you will first need to [download the application](https://obsidian.md/download){:target="_blank" rel="noopener"} which is supported in Windows, Mac, Linux, IOS and Android. As I mentioned, Obsidian does have a paid Sync and Publish features but you don’t need either for this workflow.  Instead, create a vault simply by creating a folder in a cloud based storage such as OneDrive or Google Drive, `Open Vault` in Obsidian and select that folder. 
+**To create an Obsidian account**, you will first need to [download the application](https://obsidian.md/download){:target="_blank" rel="noopener"} which is supported in Windows, Mac, Linux, IOS and Android. As I mentioned, Obsidian does have paid Sync and Publish features but you don’t need either for this workflow.  Instead, create a vault simply by creating a folder in cloud based storage such as OneDrive or Google Drive, `Open Vault` in Obsidian and select that folder. 
 
 {% include alert.html text="Note that whichever cloud based storage you choose may dictate your accessibility on other devices. For example, because I chose my University of Idaho OneDrive for a vault, I cannot access this material on my Android app due to OIT privacy standards but I can access it on all of my various laptop and desktops. This works fine for my research needs but you may need to host your vaults on personal cloud storage if you need mobile access to notes." color="light" align="right" %}
 
@@ -42,7 +42,7 @@ This is all you need to know to use the annotation workflow but please see my [I
 
 ## Considering Folder Structures
 
-Another thing to consider is the scope of your vault when you are creating it. When I first started experimenting with Obsidian, I was using it essentially like a Google Drive with many different Google Sheets in each folder containing meeting notes, ideas for different work shops and things to do. While having a grab bag of notes in Google Drive or Microsoft OneDrive is fine as it is all keyword searchable, Obsidian is most effective when your vault has a specific scope.
+Another thing to consider is the scope of your vault when you are creating it. When I first started experimenting with Obsidian, I was using it essentially like a Google Drive with many different Google Sheets in each folder containing meeting notes, ideas for different workshops and various to-do lists. While having a keyword searchable grab bag of notes in Google Drive or Microsoft OneDrive is fine if not ideal, **Obsidian is most effective when your vault has a specific scope**.
 
 Although there are ways to collaborate on a vault using either a shared cloud space or a GitHub repository (both not without potential syncing issues), **Obsidian is really designed as a _personal_ knowledge management tool** and it works best when you are analyzing a somewhat limited pool of documents. This may be a single research paper, course or academic discipline that you want to tag, categorize and analyze. 
 
@@ -71,7 +71,7 @@ Although there are ways to collaborate on a vault using either a shared cloud sp
 
 {% include gallery-figure.html img="py_ob_12.jpeg" alt="Visual Studio Code prompting verification through the GitHub Web Browser" caption="Visual Studio Code prompting verification through the GitHub Web Browser" width="75%" %}
 
-- Now that these elements are connected, you should be able to clone either the [Annotation Extraction Tool](https://github.com/Scholarly-Projects/annotation_extraction){:target="_blank" rel="noopener"} or the [Book Splitter](https://github.com/Scholarly-Projects/book_splitter){:target="_blank" rel="noopener"} Python tools by pushing the green `Code` button and selecting `Open with GitHub Desktop`.
+- Now that these elements are connected, you should be able to clone the [Annotation Extraction Tool](https://github.com/Scholarly-Projects/annotation_extraction){:target="_blank" rel="noopener"} Python tool by pushing the green `Code` button and selecting `Open with GitHub Desktop`.
 
 {% include gallery-figure.html img="py_ob_11.jpeg" alt="GitHub Browser view of the option to clone Python repositories through GitHub Desktop" caption="GitHub Browser view of the option to clone Python repositories through GitHub Desktop" width="100%" %}
 

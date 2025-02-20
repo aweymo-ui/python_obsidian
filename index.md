@@ -12,7 +12,7 @@ gallery: true
 
 ## Overview
 
-This workshop will provide a detailed method for making connections across large text research collections, creating custom tags and visualizing your research from a bird's-eye perspective. This workshop will provide a complete walkthrough of how to utilize these tools and methods regardless of your previous technical experience requiring no coding beyond `#` and `/`. This workflow utilizes either open source materials or platforms that are free of cost to all University of Idaho students and faculty.
+This workshop will provide a complete walkthrough for making connections across large text research collections, creating custom tags and visualizing your research from a bird's-eye perspective. This includes an introduction and guide to using the bibliographic manager Zotero, the static site host GitHub, the text editor Visual Studio Code and research tool Obsidian, but requires no coding experience. This workflow utilizes either open source materials or software that is free to use for all University of Idaho students and faculty.
 
 {% include toc.html %}
 
